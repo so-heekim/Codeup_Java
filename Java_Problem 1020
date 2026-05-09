@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class  Main
+{
+   public static void main(String[] args){
+       Scanner input = new Scanner(System.in);
+	     String n = input.nextLine();
+	     String nn[] = n.split("-",2);
+	   
+	     System.out.println(nn[0]+nn[1]);
+   }
+}
